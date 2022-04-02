@@ -5,7 +5,9 @@ function recur(n){
 
     return n - 1
 }
-//O(n)
+//O(n) time complexity
 console.log(recur(1))
 console.log(recur(2))
 console.log(recur(10))
+
+module.exports = recur

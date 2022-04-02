@@ -14,4 +14,4 @@ const twoSum = function(nums, target) {
 
 
 console.log(twoSum([5,6,7,9], 11))
-// O(n2) try to make it O(n) with hash map
+// O(n^2) try to make it O(n) with hash map

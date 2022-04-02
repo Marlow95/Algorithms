@@ -1,0 +1,22 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "A project of me testing out algorithms and data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marlow95/Algorithms.git"
+  },
+  "author": "Marlow Collins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marlow95/Algorithms/issues"
+  },
+  "homepage": "https://github.com/Marlow95/Algorithms#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
