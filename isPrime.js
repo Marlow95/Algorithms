@@ -13,4 +13,6 @@ function isPrime(n){
     return true;
 }
 
+//O(n) time complexity
+
 module.exports = isPrime
