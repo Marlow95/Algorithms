@@ -1,4 +1,4 @@
-const printValues = require("./linkedlist")
+const printValues = require("./linkedList")
 
 test('print linked list values', () => {
     class Node {
@@ -17,5 +17,5 @@ test('print linked list values', () => {
     b.next = c
     c.next = d
     
-    expect(printValues(a)).toBe(undefined)
+    expect(printValues(a)).toEqual([12, 45, 67, 27])
 })

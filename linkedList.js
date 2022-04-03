@@ -20,10 +20,13 @@ c.next = d
 
 function printValues(head){
     let curr = head
+    let arr = []
     while(curr !== null){
-        console.log(curr.val)
+        arr.push(curr.val)
         curr = curr.next
     }
+    console.log(arr)
+    return arr
 }
 
 module.exports = printValues
