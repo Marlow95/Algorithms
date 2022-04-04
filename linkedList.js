@@ -21,12 +21,15 @@ c.next = d
 function printValues(head){
     let curr = head
     let arr = []
+
     while(curr !== null){
         arr.push(curr.val)
         curr = curr.next
     }
-    console.log(arr)
+
     return arr
 }
+
+//O(n) time complexity
 
 module.exports = printValues

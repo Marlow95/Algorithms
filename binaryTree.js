@@ -47,4 +47,6 @@ function depthValues(root){
   return [ root.val, ...leftValues, ...rightValues ];
 }
 
-module.exports = depthValues;
+//O(n) time complexity
+
+module.exports = depthValues

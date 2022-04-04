@@ -1,7 +1,6 @@
-const depthValues = require('./binaryTree')
+const breathValues = require('./binaryTree2')
 
-
-test('print depth first values', () => {
+test('zPrint Breath First Values', () => {
 
     class Node {
         constructor(val){
@@ -30,5 +29,5 @@ test('print depth first values', () => {
     child2.left = leaf3
     child2.right = leaf4
 
-    expect(depthValues(root)).toEqual([70, 30, 10, 20, 60, 40, 50])
+    expect(breathValues(root)).toEqual([70, 30, 60, 10, 20, 40, 50])
 })
